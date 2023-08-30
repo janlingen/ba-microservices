@@ -1,0 +1,49 @@
+<div class="container">
+  <h2>Warenkorb</h2>
+  <div *ngIf="!isLoggedIn" class="alert alert-danger" role="alert">
+    Logge dich im User-Bereich ein, um Produkte in den Warenkorb zu legen!
+  </div>
+
+  <div *ngIf="warenkorb">
+    <p>Bestellnr: {{ warenkorb.id }}</p>
+
+    <h3>Produkte im Warenkorb:</h3>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Produkt</th>
+          <th>Anzahl</th>
+          <th>Preis pro Stück</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <ng-container
+          *ngFor="let produkt of warenkorb.produktList; let i = index"
+        >
+          <tr *ngIf="produkt.anzahl > 0">
+            <td>{{ produkt.name }}</td>
+            <td>{{ produkt.anzahl }}</td>
+            <td>{{ produkt.preis | currency }}</td>
+            <td>
+              <button (click)="decrementAnzahl(i)">-</button>
+              <button (click)="incrementAnzahl(i)">+</button>
+            </td>
+          </tr>
+        </ng-container>
+      </tbody>
+    </table>
+
+    <table class="table">
+      <tfoot>
+        <tr>
+          <td>Gesamtsumme:</td>
+          <td></td>
+          <td>{{ calculateGesamtsumme() | currency }}</td>
+          <td></td>
+        </tr>
+        <button class="btn btn-primary" (click)="bestellungAbschicken()">Bestellung abschicken</button>
+      </tfoot>
+    </table>
+  </div>
+</div>

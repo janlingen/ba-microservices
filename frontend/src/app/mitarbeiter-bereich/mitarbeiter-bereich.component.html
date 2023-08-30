@@ -1,0 +1,57 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 offset-md-3 mt-5">
+      <h2>Mitarbeiter-Bereich</h2>
+      <div class="container" *ngIf="!isLoggedIn">
+        <div class="row">
+          <div class="col-md-6 offset-md-3 mt-5">
+            <h2>Login</h2>
+            <form>
+              <div class="form-group">
+                <label for="username">Benutzername</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="username"
+                  name="username"
+                  [(ngModel)]="username"
+                />
+              </div>
+              <div class="form-group">
+                <label for="passwort">Passwort</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="passwort"
+                  name="passwort"
+                  [(ngModel)]="passwort"
+                />
+              </div>
+              <button type="button" class="btn btn-primary" (click)="login()">
+                Anmelden
+              </button>
+              <p class="text-danger mt-2" *ngIf="errorMessage">
+                {{ errorMessage }}
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div>
+            <div *ngIf="isLoggedIn">
+              <p>Erfolgreich angemeldet!</p>
+              <button class="btn btn-danger" (click)="logout()">Logout</button>
+            <br>
+            <br>
+              <button class="btn btn-primary" (click)="navigateToInventar()">Inventar bearbeiten</button>
+              <br>
+              <br>
+              <button class="btn btn-primary" (click)="navigateToProdukt()">Produkt hinzufügen</button>
+              <br>
+              <br>
+              <button class="btn btn-primary" (click)="navigateToZustellung()">Zustellungen bearbeiten</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>

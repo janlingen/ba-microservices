@@ -1,0 +1,91 @@
+<div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-3 mt-5">
+        <h2>Registrieren</h2>
+        <form>
+          <div class="form-group">
+            <label for="username">Benutzername</label>
+            <input
+              type="text"
+              class="form-control"
+              id="username"
+              name="username"
+              [(ngModel)]="userData.username"
+            />
+          </div>
+          <div class="form-group">
+            <label for="password">Passwort</label>
+            <input
+              type="password"
+              class="form-control"
+              id="password"
+              name="password"
+              [(ngModel)]="userData.passwort"
+            />
+          </div>
+          <div class="form-group">
+            <label for="vorname">Vorname</label>
+            <input
+              type="text"
+              class="form-control"
+              id="vorname"
+              name="vorname"
+              [(ngModel)]="userData.vorname"
+            />
+          </div>
+          <div class="form-group">
+            <label for="nachname">Nachname</label>
+            <input
+              type="text"
+              class="form-control"
+              id="nachname"
+              name="nachname"
+              [(ngModel)]="userData.nachname"
+            />
+          </div>
+          <div class="form-group">
+            <label for="postleitzahl">Postleitzahl</label>
+            <input
+              type="text"
+              class="form-control"
+              id="postleitzahl"
+              name="postleitzahl"
+              [(ngModel)]="userData.postleitzahl"
+            />
+          </div>
+          <div class="form-group">
+            <label for="stadt">Stadt</label>
+            <input
+              type="text"
+              class="form-control"
+              id="stadt"
+              name="stadt"
+              [(ngModel)]="userData.stadt"
+            />
+          </div>
+          <div class="form-group">
+            <label for="strasse">Straße</label>
+            <input
+              type="text"
+              class="form-control"
+              id="strasse"
+              name="strasse"
+              [(ngModel)]="userData.strasse"
+            />
+          </div>
+          <div class="form-group">
+            <label for="hausnummer">Hausnummer</label>
+            <input
+              type="text"
+              class="form-control"
+              id="hausnummer"
+              name="hausnummer"
+              [(ngModel)]="userData.hausnummer"
+            />
+          </div>
+          <button type="button" class="btn btn-primary" (click)="register()">Registrieren</button>
+          <p class="text-danger mt-2" *ngIf="errorMessage">{{ errorMessage }}</p>
+        </form>
+      </div>
+    </div>
+  </div>

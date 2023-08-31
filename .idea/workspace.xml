@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c240ab33-247b-49c4-9ca8-5848f08c3772" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/produkt-service/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/produkt-service/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produkt-service/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/produkt-service/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produkt-service/src/main/java/de/janlingen/produktservice/ProduktServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/produkt-service/src/main/java/de/janlingen/produktservice/ProduktServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produkt-service/src/main/java/de/janlingen/produktservice/data/ProduktRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/produkt-service/src/main/java/de/janlingen/produktservice/data/ProduktRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produkt-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/produkt-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/src/main/java/de/janlingen/shopservice/ShopServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-service/src/test/java/de/janlingen/shopservice/ShopServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/de/janlingen/userservice/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/de/janlingen/userservice/UserServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/bestell-service">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/bezahl-service">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/inventar-service">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/mitarbeiter-serivce">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ba-microservices" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ba-microservices" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ba-microservices" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ba-microservices" type="f1a62948:ProjectNode" />
+                <item name="bestell-service" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ba-microservices" type="f1a62948:ProjectNode" />
+                <item name="bestell-service" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ba-microservices" type="f1a62948:ProjectNode" />
+                <item name="bestell-service" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2VLUGDLHjPTt1ajyjMFbGD8sypT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/azakamu/Desktop/code/ba-microservices copy&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;show.run.dashboard.notification&quot;: &quot;false&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;983e86dbce68cc9cc824011c6e5f4493&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mariadb&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bestell-service" />
+      <recent name="$PROJECT_DIR$/mitarbeiter-service" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/zustell-service" />
+      <recent name="$PROJECT_DIR$/user-service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ba-microservices.api-gateway.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="de.janlingen.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BestellServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ba-microservices.bestell-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="de.janlingen.bestellservice.BestellServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BezahlServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ba-microservices.bezahl-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="de.janlingen.bezahlservice.BezahlServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ba-microservices.discovery-server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="de.janlingen.discoveryserver.DiscoveryServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InventarServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ba-microservices.inventar-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="de.janlingen.inventarservice.InventarServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MitarbeiterServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ba-microservices.mitarbeiter-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="de.janlingen.mitarbeiterservice.MitarbeiterServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProduktServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ba-microservices.produkt-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="de.janlingen.produktservice.ProduktServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ba-microservices.user-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="de.janlingen.userservice.UserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZustellServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ba-microservices.zustell-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="de.janlingen.zustellservice.ZustellServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="inventar-service: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="inventar-service/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="mitarbeiter-service: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="mitarbeiter-service/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="produkt-service: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="produkt-service/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="user-service: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="user-service/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="zustell-service: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="zustell-service/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.zustell-service: Compose Deployment" />
+        <item itemvalue="Docker.user-service: Compose Deployment" />
+        <item itemvalue="Docker.produkt-service: Compose Deployment" />
+        <item itemvalue="Docker.mitarbeiter-service: Compose Deployment" />
+        <item itemvalue="Docker.inventar-service: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c240ab33-247b-49c4-9ca8-5848f08c3772" name="Changes" comment="" />
+      <created>1694614755844</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694614755844</updated>
+      <workItem from="1694614757017" duration="22000" />
+      <workItem from="1694615596981" duration="1511000" />
+      <workItem from="1694617114885" duration="37412000" />
+      <workItem from="1695195872866" duration="51000" />
+      <workItem from="1695196544031" duration="465000" />
+      <workItem from="1695197469931" duration="15000" />
+      <workItem from="1695197587516" duration="107000" />
+      <workItem from="1695197714131" duration="32235000" />
+      <workItem from="1695994277051" duration="39825000" />
+      <workItem from="1697051933380" duration="259000" />
+      <workItem from="1697052345861" duration="689000" />
+      <workItem from="1697100651754" duration="311000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

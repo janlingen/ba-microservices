@@ -1,4 +1,4 @@
-rootProject.name = "ba-microservices"
+rootProject.name = "ecom-synchronous"
 include("api-gateway")
 include("mitarbeiter-service")
 include("bestell-service")

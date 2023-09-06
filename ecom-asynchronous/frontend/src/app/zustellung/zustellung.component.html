@@ -1,0 +1,21 @@
+<div class="container">
+    <h2>Zustellungen</h2>
+    <div *ngFor="let zustellung of zustellungen">
+      <div class="mb-3">
+        <button class="btn btn-link" (click)="toggleDetails(zustellung)">
+          <strong>Zustellungs-ID: {{ zustellung.id }}</strong>
+        </button>
+        <p>Kunden-ID: {{ zustellung.kundenId }}</p>
+        <button class="btn btn-primary" (click)="zugestellt(zustellung.id)">
+          Zugestellt
+        </button>
+        <div *ngIf="zustellung.showDetails">
+          <ul>
+            <li *ngFor="let produkt of zustellung.produktDTOList">
+              {{ produkt.name }} - Anzahl: {{ produkt.anzahl }}
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 offset-md-3 mt-5">
+      <h2>User-Bereich</h2>
+      <div *ngIf="isLoggedIn">
+        <p>Erfolgreich angemeldet!</p>
+        <p>Aktueller Kontostand: {{ kontostand | currency }}</p>
+        <button class="btn btn-primary" (click)="erhoeheKontostand()">Kontostand erhöhen</button>
+        <button class="btn btn-danger" (click)="logout()">Logout</button>
+      </div>
+      <div *ngIf="!isLoggedIn">
+        <app-login></app-login>
+        <app-registrieren></app-registrieren>
+      </div>
+    </div>
+  </div>
+</div>

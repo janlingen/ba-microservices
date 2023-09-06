@@ -1,0 +1,61 @@
+<div class="container">
+  <div *ngIf="!isLoggedIn" class="alert alert-danger" role="alert">
+    Logge dich im User-Bereich ein um Produkte in den Warenkorb zu legen!
+  </div>
+  <div class="row">
+    <div class="col-md-4" *ngFor="let produkt of produkte; let i = index">
+      <div class="card mb-4">
+        <img
+          [src]="
+            produkt.bildUrl ||
+            'https://www.cleverfiles.com/howto/wp-content/uploads/2018/03/minion.jpg'
+          "
+          class="card-img-top"
+          alt="Produktbild"
+          style="
+            max-height: 150px;
+            min-height: 150px;
+            min-width: 150px;
+            max-width: 150px;
+          "
+        />
+        <div class="card-body">
+          <h5 class="card-title">{{ produkt.name }}</h5>
+          <p class="card-text">{{ produkt.marke }}</p>
+          <p class="card-text">{{ produkt.beschreibung }}</p>
+          <p class="card-text">{{ produkt.preis | currency }}</p>
+
+          <div *ngIf="isLoggedIn">
+            <div class="input-group">
+              <button
+                class="btn btn-outline-secondary"
+                type="button"
+                (click)="decrementMenge(i)"
+              >
+                -
+              </button>
+              <input
+                type="number"
+                class="form-control"
+                [(ngModel)]="mengen[i]"
+                [min]="1"
+              />
+              <button
+                class="btn btn-outline-secondary"
+                type="button"
+                (click)="incrementMenge(i)"
+              >
+                +
+              </button>
+            </div>
+            <button
+              class="btn btn-primary mt-2"
+              (click)="addToWarenkorb(produkt.name, mengen[i], produkt.preis)">
+              In den Warenkorb
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

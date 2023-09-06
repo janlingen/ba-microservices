@@ -1,0 +1,71 @@
+<div class="container">
+    <h2>Produktinformationen</h2>
+    <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            name="name"
+            [(ngModel)]="produkt.name"
+          />
+        </div>
+        <div class="form-group">
+          <label for="marke">Marke</label>
+          <input
+            type="text"
+            class="form-control"
+            id="marke"
+            name="marke"
+            [(ngModel)]="produkt.marke"
+          />
+        </div>
+        <div class="form-group">
+          <label for="gewicht">Gewicht</label>
+          <input
+            type="number"
+            class="form-control"
+            id="gewicht"
+            name="gewicht"
+            [(ngModel)]="produkt.gewicht"
+          />
+        </div>
+        <div class="form-group">
+          <label for="beschreibung">Beschreibung</label>
+          <input
+            type="text"
+            class="form-control"
+            id="beschreibung"
+            name="beschreibung"
+            [(ngModel)]="produkt.beschreibung"
+          />
+        </div>
+        <div class="form-group">
+          <label for="preis">Preis</label>
+          <input
+            type="number"
+            class="form-control"
+            id="preis"
+            name="preis"
+            [(ngModel)]="produkt.preis"
+          />
+        </div>
+        <div class="form-group">
+          <label for="bildUrl">Bild-Url</label>
+          <input
+            type="text"
+            class="form-control"
+            id="bildUrl"
+            name="bildUrl"
+            [(ngModel)]="produkt.bildUrl"
+          />
+        </div>
+        <br>
+        <button type="button" class="btn btn-primary" (click)="addProdukt()">Produkt hinzufügen</button>
+    </form>
+
+    <div *ngIf="errorErstellung" class="alert alert-danger" role="alert">
+        Diese Produkt gibt es schon, oder ein anderer Fehler ist aufgetreten!
+      </div>
+  </div>

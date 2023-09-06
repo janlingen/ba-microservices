@@ -1,0 +1,22 @@
+<div class="container">
+    <h2>Inventar</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Anzahl</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let artikel of inventar; let i = index">
+          <td>{{ artikel.name }}</td>
+          <td>{{ artikel.anzahl }}</td>
+          <td>
+            <button (click)="erhoeheAnzahl(i)" class="btn btn-success">Erhöhen</button>
+            <button (click)="verringereAnzahl(i)" class="btn btn-danger">Verringern</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
